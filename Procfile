@@ -1,1 +1,1 @@
-web: python -c "import os; port = os.getenv('PORT', '8000'); os.system(f'uvicorn main:app --host 0.0.0.0 --port {port}')"
+web: python start.py
