@@ -38,8 +38,8 @@ CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "1"))  # Default to 1 minute
 
 # Market Watch RSS feeds
 RSS_FEEDS = [
-    #"https://www.marketwatch.com/rss/topstories",
-    #"https://www.marketwatch.com/rss/marketpulse",
+    "https://www.marketwatch.com/rss/topstories",
+    "https://www.marketwatch.com/rss/marketpulse",
     "https://www.marketwatch.com/rss/breakingnews",
 ]
 
